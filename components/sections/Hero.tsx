@@ -15,12 +15,12 @@ const tickerItems = [
 export default function Hero() {
   return (
     <section className="bg-cream pt-20">
-      <div className="mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-12 lg:px-10">
-        <Reveal className="lg:col-span-5">
+      <div className="mx-auto grid min-h-screen max-w-7xl grid-cols-1 items-center gap-10 overflow-hidden px-5 py-20 sm:px-8 md:grid-cols-12 lg:gap-12 lg:px-10">
+        <Reveal className="min-w-0 md:col-span-5">
           <p className="font-accent text-xl italic text-secondary">
             Custom apparel manufacturer
           </p>
-          <h1 className="mt-5 font-heading text-5xl font-bold leading-tight text-primary sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 font-heading text-4xl font-bold leading-tight text-primary md:text-5xl lg:text-6xl">
             Precision Manufacturing for Modern Brands.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-8 text-dark/75 sm:text-lg">
@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
         </Reveal>
 
-        <Reveal className="lg:col-span-7" delay={0.1}>
+        <Reveal className="md:col-span-7" delay={0.1}>
           <div className="overflow-hidden rounded-xl border border-primary/15 bg-white shadow-md transition-transform duration-500 hover:scale-[1.02]">
             <img
               src="https://placehold.co/800x600/274445/EDEAE1?text=Exit+Apparel"
